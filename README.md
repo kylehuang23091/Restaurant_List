@@ -14,7 +14,7 @@ git clone https://github.com/kylehuang23091/restaurant_list.git
 ```
 2. 進入專案資料夾
 ```
-cd restaurant_list
+cd Restaurant_List
 ```
 3. 安裝專案所需npm套件
 ```
