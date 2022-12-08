@@ -10,7 +10,7 @@
 
 1. 打開終端機(Terminal)，將專案clone至本機位置
 ```
-git clone https://github.com/cayangtuu/restaurant_list.git
+git clone https://github.com/kylehuang23091/Restaurant_List.git
 ```
 2. 進入專案資料夾
 ```
