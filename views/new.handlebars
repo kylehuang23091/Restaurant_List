@@ -1,0 +1,54 @@
+<div class="container-fluid">
+  <form action="/restaurants" method="POST" novalidate>
+    <div class="mb-3">
+      <label for="name" class="form-label">餐廳名稱</label>
+      <input type="text" class="form-control" name="name" id="name" placeholder="請輸入餐廳名稱 " required>
+    </div>
+
+    <div class="mb-3">
+      <label for="name" class="form-label">餐廳英文名</label>
+      <input type="text" class="form-control" name="name_en" rows="3" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="name" class="form-label">餐廳類別</label>
+      <input type="text" class="form-control" name="category" rows="3" placeholder="美式餐廳" id="name" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="phone" class="form-label">聯絡電話</label>
+      <input type="string" class="form-control" name="phone" rows="3" id="name" placeholder="0987XX.." required>
+    </div>
+
+    <div class="mb-3">
+      <label for="rating" class="form-label">請輸入餐廳評分1~5</label>
+      <input type="string" min="1" max="5" class="form-control" name="rating" rows="3" placeholder="請輸入1~5整數"
+        id="rating" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="description" class="form-label">請貼上餐廳介紹</label>
+      <input type="text" class="form-control" name="description" id="description" rows="3" placeholder="ex餐廳氣氛非常好..."
+        required>
+    </div>
+
+    <div class="mb-3">
+      <label for="location" class="form-label">餐廳地址</label>
+      <input type="text" class="form-control" name="location" rows="3" placeholder="彰化市柴犬路.." id="location" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="google_map" class="form-label">請貼上餐廳Google Map網址</label>
+      <input type="text" class="form-control" name="google_map" rows="3" id="google_map" placeholder="請輸入google地址"
+        required>
+    </div>
+
+    <div class="mb-3">
+      <label for="image" class="form-label">餐廳圖片網址</label>
+      <input type="text" class="form-control" name="image" rows="3" placeholder="https: good to see you@...." id="image"
+        required>
+    </div>
+
+    <button id="btn-type" type="submit" class="btn btn-major">新增</button>
+  </form>
+</div>
