@@ -6,34 +6,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Restaurant List</title>
-
   {{!-- include CSS --}}
   <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+  {{!-- include font awesome --}}
+  <script src="https://kit.fontawesome.com/960475f8b6.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <div class="bg-warning bg-gradient bg-opacity-10">
     <header>
       <!-- navigation -->
-      <nav class=" mb-3 navbar navbar-light bg-warning bg-gradient bg-opacity-25">
-        <div class="container bg-gradient bg-opacity-30">
-          <a class="navbar-brand" href="/">
-            <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/6227/restaurant-list-logo.png"
-              width="30" height="30" class="d-inline-block align-top" alt="我的餐廳清單" />
-            我的餐廳清單
-          </a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
+        <div class="container-fluid mx-5 justify-content-between">
+          <a class="navbar-brand" href="/">My Restaurant List</a>
+          <a href="/restaurants/new"><button type="button" class="btn btn-primary btn-lg">新增餐廳</button></a>
         </div>
       </nav>
-
-      <div class="banner"></div>
     </header>
     {{{body}}}
-
     {{!-- include popper & bootstrap --}}
     <script src="/javascripts/popper.js"></script>
     <script src="/javascripts/bootstrap.js"></script>
   </div>
-
 </body>
 
 </html>
